@@ -13,7 +13,7 @@ for i in range(0, 10):
 time.sleep(how_seconds)
 
 for i in range(0, 10):
-    check_number = int(input("Enter number: "))
+    check_number = int(input(f"Enter {i+1} number: "))
     list_check.append(check_number)
 
 if list_random == list_check:
